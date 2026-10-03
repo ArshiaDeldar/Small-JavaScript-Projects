@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>TEXT EDITOR</h1>
+      <div class="button-container">
+        <button onclick="editorOption1()" title="Bold Text">Bold</button>
+        <button onclick="editorOption2()" title="Italic Text">Italic</button>
+        <button onclick="editorOption3()" title="Left Align">
+          <i class="fas fa-align-left"></i>
+        </button>
+        <button onclick="editorOption4()" title="Center Align">
+          <i class="fas fa-align-center"></i>
+        </button>
+        <button onclick="editorOption5()" title="Right Align">
+          <i class="fas fa-align-right"></i>
+        </button>
+        <button onclick="editorOption6()" title="Uppercase">Upper Case</button>
+        <button onclick="editorOption7()" title="Lowercase">Lower Case</button>
+        <button onclick="editorOption8()" title="Capitalize">Capitalize</button>
+        <button onclick="editorOption9()" title="Clear Text">Clear Text</button>
+      </div>
+      <textarea
+        id="textarea1"
+        rows="15"
+        placeholder="Your text here..."
+      ></textarea>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
